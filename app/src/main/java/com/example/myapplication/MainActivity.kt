@@ -71,7 +71,7 @@ fun MemoryTrainingApp() {
             startTime = System.currentTimeMillis()
             while (isMemorizing) {
                 elapsedTime = System.currentTimeMillis() - startTime
-                delay(50)
+                delay(1)
             }
         }
     }
